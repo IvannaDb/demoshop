@@ -3,10 +3,9 @@ h1 {
 }
 
 
-
-
 li {
 	list-style: none;
+	box-sizing: border-box;
 	height: 100px;
 	width: 100px;
 	border: solid black 1px;
@@ -68,3 +67,32 @@ li {
 	background-color: red;
 	cursor: pointer;
 }
+@media (max-width: 992px){
+	li{
+		width: 34%;
+		
+		position: relative;
+	}
+	}
+	@media (max-width: 768px){
+	li{
+		width: 50%;
+		
+		position: relative;
+		
+
+	}
+}
+
+@media (max-width: 425px) {
+	li {
+		width: 100%;
+		
+		position: relative;
+		left: -27px;
+
+	}
+}
+
+
+
