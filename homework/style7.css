@@ -1,10 +1,17 @@
+h1 {
+	text-align: center;
+}
+
+
+
+
 li {
 	list-style: none;
 	height: 100px;
 	width: 100px;
 	border: solid black 1px;
-	
 	margin: 10px;
+	
 }
  
  #red {
@@ -32,4 +39,32 @@ li {
 #purple{
 	background-color: purple;
 
+}
+#red:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+#orange:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+#yellow:hover{
+	background-color: #09b309;
+	cursor: pointer;
+}
+#green:hover{
+	background-color: aqua;
+	cursor: pointer;
+}
+#aqua:hover{
+	background-color: blue;
+	cursor: pointer;
+}
+#blue:hover{
+	background-color: purple;
+	cursor: pointer;
+}
+#purple:hover{
+	background-color: red;
+	cursor: pointer;
 }
