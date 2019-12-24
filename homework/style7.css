@@ -1,0 +1,35 @@
+li {
+	list-style: none;
+	height: 100px;
+	width: 100px;
+	border: solid black 1px;
+	
+	margin: 10px;
+}
+ 
+ #red {
+ 	background-color: red;
+ }
+
+ #orange {
+ 	background-color: orange;
+ }
+ #yellow{
+	background-color: yellow;
+ }
+#green {
+	background-color: #09b309;
+}
+
+#aqua {
+	background-color: aqua;
+
+}
+#blue{
+	background-color: blue;
+
+}
+#purple{
+	background-color: purple;
+
+}
