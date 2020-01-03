@@ -26,7 +26,7 @@ td {
 	width: 5%;
 }
 .number {
-	left: 70%;
+	left: 60%;
 	font-size: 15px;
 	width: 20px;
 	height: 20px;
@@ -61,4 +61,7 @@ td {
 }
 .cellb {
 	background-color: yellow;
+}
+.cellsc {
+	background-color: aqua;
 }
