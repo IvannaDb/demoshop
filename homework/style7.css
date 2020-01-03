@@ -1,84 +1,103 @@
 h1 {
 	text-align: center;
 }
-
+ ul {
+ 	
+ 	padding: 0;
+ 	margin: 10px;
+ }
 
 li {
 	list-style: none;
 	box-sizing: border-box;
 	height: 100px;
 	width: 100px;
-	border: solid black 1px;
+	border: solid white 2px;
 	margin: 10px;
+	display: block;
+	float:left;
+
 	
 }
+
+
  
- #red {
+ li:first-child  {
  	background-color: red;
  }
 
- #orange {
+ li:nth-child(2) {
  	background-color: orange;
  }
- #yellow{
+ li:nth-child(3){
 	background-color: yellow;
  }
-#green {
+li:nth-child(4){
 	background-color: #09b309;
 }
 
-#aqua {
+li:nth-child(5){
 	background-color: aqua;
 
 }
-#blue{
+li:nth-child(6){
 	background-color: blue;
 
 }
-#purple{
+li:last-child {
 	background-color: purple;
 
 }
-#red:hover {
+li:first-child:hover {
 	background-color: orange;
 	cursor: pointer;
 }
-#orange:hover{
+li:nth-child(2):hover{
 	background-color: yellow;
 	cursor: pointer;
 }
-#yellow:hover{
+li:nth-child(3):hover{
 	background-color: #09b309;
 	cursor: pointer;
 }
-#green:hover{
+li:nth-child(4):hover{
 	background-color: aqua;
 	cursor: pointer;
 }
-#aqua:hover{
+li:nth-child(5):hover{
 	background-color: blue;
 	cursor: pointer;
 }
-#blue:hover{
+li:nth-child(6):hover{
 	background-color: purple;
 	cursor: pointer;
 }
-#purple:hover{
+li:last-child:hover{
 	background-color: red;
 	cursor: pointer;
 }
+
+ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
 @media (max-width: 992px){
 	li{
-		width: 34%;
+		width: 33.33333333333333%;
+		margin: 0;
+		margin-bottom: 10px;
 		
-		position: relative;
+		
 	}
 	}
 	@media (max-width: 768px){
 	li{
 		width: 50%;
+		margin: 0;
+		margin-bottom: 10px;
 		
-		position: relative;
+		
 		
 
 	}
@@ -87,9 +106,10 @@ li {
 @media (max-width: 425px) {
 	li {
 		width: 100%;
+		margin: 0;
+		margin-bottom: 10px;
 		
-		position: relative;
-		left: -27px;
+		
 
 	}
 }
