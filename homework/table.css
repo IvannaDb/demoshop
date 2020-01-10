@@ -26,7 +26,9 @@ td {
 	width: 5%;
 }
 .number {
-	left: 60%;
+	top: 0;
+	/*right: -50%;*/
+	left: 10%;
 	font-size: 15px;
 	width: 20px;
 	height: 20px;
@@ -41,6 +43,7 @@ td {
 	float: left;
 	display: block;
 	position: relative;
+	text-align: left;
 
 }
 .weight {
@@ -64,4 +67,7 @@ td {
 }
 .cellsc {
 	background-color: aqua;
+}
+.cellgr {
+	background-color: #3dc73d;
 }
