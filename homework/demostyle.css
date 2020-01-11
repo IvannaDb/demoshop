@@ -1,0 +1,98 @@
+.head {
+	position: relative;
+	width: 780px;
+	left: 50%;
+	margin-left: -390px;
+	
+	/*background-color: #0000ff9e;*/
+	
+
+}
+
+#logo {
+	
+	position: relative;
+	width: 180px;
+	height: 40px;
+	float: left;
+
+
+}
+/*.clear {
+	clear: both;
+}*/
+.menu {
+	color: blue;
+	
+	box-sizing: border-box;
+}
+.menu>li {
+	list-style: none;
+	position: relative;
+	float: left;
+}
+
+.menu a {
+	text-decoration: none;
+	display: block;
+	border-right: 1px #4e4eea solid;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+	color: #4e4eea;
+
+
+}
+.submenu {
+
+}
+.search {
+	width: 170px;
+	height: 20px;
+	display: block;
+	margin-left: 20px; 
+	position: relative;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+  	
+	
+
+	
+}
+input[type="search"] {
+    border: 1px solid #4e4eea; 
+    width: 170px; 
+    height: 20px;
+    background-color: #dedddd;
+
+
+   }
+   input[type="submit"] {
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    background: url(../../дз/демошоп/search.png) no-repeat; 
+    position: absolute;
+    top: 15px;
+    right: 0px;
+   }
+
+   .head:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+	/*.search:after {
+	content: "";
+	display: block;
+	clear: both;
+	}*/
+
+	/*.menu:after {
+	content: "";
+	display: block;
+	clear: both;	
+	}*/
