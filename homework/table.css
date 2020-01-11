@@ -20,6 +20,10 @@ td {
 	text-align: center;
 	border: grey 1px dotted;
 }
+a {
+	text-decoration: none;
+
+}
 .widthcol {
 	width: 9%;
 }
@@ -31,8 +35,8 @@ td {
 }
 .number {
 	top: 0;
-	/*right: -50%;*/
-	left: 10%;
+	
+	left: 50%;
 	font-size: 15px;
 	width: 20px;
 	height: 20px;
@@ -41,6 +45,21 @@ td {
 	
 	float: left;
 }
+
+.number2 {
+	top: 0;
+	
+	left: 35%;
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: block;
+	
+	float: left;
+
+}
+
 .elem {
 	font-size: 30px;
 	font-weight: 700;
@@ -48,8 +67,11 @@ td {
 	display: block;
 	position: relative;
 	text-align: left;
+	width: 44px;
+	height: 34px;
 
 }
+
 .weight {
 	text-align: right;
 	font-size: 15px;
