@@ -12,7 +12,8 @@ a {
 	outline: none;
 }
 body {
-	background: url(../../дз/демошоп/patt.png) repeat;	
+	background: url(../../дз/демошоп/patt.png) repeat;
+	font-family: arial;	
 }
 header {
 	background-color: white;
@@ -24,9 +25,10 @@ header {
 }
 .head {
 	position: relative;
-	width: 850px;
+	width: 900px;
 	left: 50%;
-	margin-left: -425px;
+	margin-left: -450px;
+
 }
 #logo {
 	
@@ -40,21 +42,23 @@ header {
 .menu {
 	color: blue;
 	box-sizing: border-box;
+	width: 600px;
 }
 .menu>li {
-	font-size: 20px;
+	font-size: 17px;
 	position: relative;
 	float: left;
+
 }
 .menu a {
 	display: block;
-	border-right: 1px #4e4eea solid;
+	border-right: 1px #2c71b8 solid;
 	width: 100px;
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
 	background-color: white;
-	color: #4e4eea;
+	color: #2c71b8;
 }
 .submenu {
 	display: none;
@@ -77,20 +81,20 @@ header {
 	width: 200px;
 	line-height: 30px;
 	text-align: center;
-    background-color: #4e4eea;
+    background-color: #2c71b8;
 }
 .menu> li:hover >.submenu {
 	position: absolute;
  	display: block;
 } 
 .menu a:hover {
-	background-color: #4e4eea;
+	background-color: #2c71b8;
 	color: white;
 }
 .submenu a:hover {
 	background-color: white ;
-	color: #4e4eea;
-	border: 1px solid #4e4eea;
+	color: #2c71b8;
+	border: 1px solid #2c71b8;
 }
 .search {
 	width: 170px;
@@ -101,9 +105,11 @@ header {
 	float: left;
 	line-height: 60px;
 	text-align: center;
+
+	
 }
 input[type="search"] {
-    border: 1px solid #4e4eea; 
+    border: 1px solid #2c71b8; 
     width: 170px; 
     height: 20px;
     background-color: #dedddd;
@@ -122,9 +128,174 @@ input[type="search"] {
    	top: 20px;
    	margin-left:10px; 
    }
-   .head:after, header:after, li:after, .search:after {
+   .head:after, header:after, .search:after, .groups:after, .line:after, .shop:after, h1:after, .products:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+.animation {
+	width: 100%;
+	height: 250px;
+	border: white 1px solid;
+}
+.container {
+	width: 900px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}	
+.line {
+	background-color: #f7f7f717;
+	width: 25%;
+	float: left;
+	height: 800px;
+}
+.shop {
+	width: 75%;
 	
+	height: 100%;
+	float: right;
+	
+}
+.next {
+	width: 8px;
+	height: 8px;
+}
+.groups li{
+	float: left;
+	font-size: 10px;
+	margin-bottom: 10px;
+	 
+}
+.groups a {
+	color: white;
+}
+h1 {
+	color: white;
+	float: left;
+	
+}
+
+.sort {
+	background-color: #2c71b8;
+	color: white;
+	position: relative;
+	width: 200px;
+	left: 21%;
+	height: 30px;
+	
+}
+
+
+.products {
+	width: 200px;
+	background-color: #2c71b8;
+	color: white;
+	border: 1px solid white;
+	margin-top: 30px;
+	float: left;
+	margin: 10px;
+
+}
+.img {
+	background-color: #ffffff80;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	line-height: 100px;
+	top: -5px;
+	position: relative;
+
+}
+.product1 {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+
+.square {
+	display: block;
+	position: relative;
+	margin: 5px;
+	left: 82%;
+	top: 5px;
+
+
+
+}
+.heart {
+	display: block;
+	margin: 5px;
+	position: relative;
+	left: 82%;
+	top: 5px;
+}
+p {
+	
+	margin: 10px;
+}
+h2 {
+
+	margin: 10px;
+	font-weight: 300;
+}
+.price {
+	font-size: 40px;
+	font-weight:500;
+	text-align: center;
+}
+.details {
+	width: 150px;
+	border: 1px solid white;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	position: relative;
+}
+.add {
+	width: 150px;
+	border: 1px solid white;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #ffffff80;
+	position: relative;
+	margin-bottom: 10px;
+
+
+}
+.bucket {
+	text-align: center;
+	line-height: 40px;
+}
+.white {
+	color: white;
+}
+.clear {
+	clear: both;
+}
+.bottom {
+	font-style: 50px;
+	color: white;
+	width: 150px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
